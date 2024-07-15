@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function ct(s) {
+    var c = {};
+    for (var ch of s) {
+        c[ch] = c[ch]+1||1;
+    }
+    console.log(c);
+}
+ct(prompt("Enter String: "));
+    </script>
+</body>
+</html>
